@@ -1,0 +1,120 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\olado\\Desktop\\Personal\\FalconApi\\persistence\\Persistence.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\olado\\Desktop\\Personal\\FalconApi\\domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\olado\\Desktop\\Personal\\FalconApi\\domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\olado\\Desktop\\Personal\\FalconApi\\domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\olado\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\olado\\Desktop\\Personal\\FalconApi\\domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\olado\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\olado\\Desktop\\Personal\\FalconApi\\persistence\\Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\olado\\Desktop\\Personal\\FalconApi\\persistence\\Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "C:\\Users\\olado\\Desktop\\Personal\\FalconApi\\persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\olado\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\olado\\Desktop\\Personal\\FalconApi\\persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\olado\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\olado\\Desktop\\Personal\\FalconApi\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\olado\\Desktop\\Personal\\FalconApi\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
