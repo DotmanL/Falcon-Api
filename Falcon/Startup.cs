@@ -14,7 +14,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Persistence;
 
-namespace API
+namespace Falcon
 {
     public class Startup
     {
@@ -37,7 +37,7 @@ namespace API
             });
             services.AddDbContext<DataContext>(opt =>
             {
-                opt.UseSqlite(_config.GetConnectionString("DefaultConnection");
+                opt.UseSqlite(_config.GetConnectionString("DefaultConnection"));
             });
         }
 

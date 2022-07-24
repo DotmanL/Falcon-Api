@@ -17,7 +17,7 @@ namespace Persistence
 
 
         // sets the name of our table to Activities with the type of Activity
-        //contains all the columns in our table
+        // contains all the columns in our table from the fields in the Activity class
         public DbSet<Activity> Activities { get; set; }
     }
 }
